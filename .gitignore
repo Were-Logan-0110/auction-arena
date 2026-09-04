@@ -1,0 +1,16 @@
+﻿node_modules/
+__pycache__/
+*.pyc
+.env
+*.log
+*.har
+games.db
+_probe*.py
+web/_sim*
+dist/
+!web/dist/
+!web/dist/**
+deploy/
+
+*.err
+web/android/app/src/main/assets/
