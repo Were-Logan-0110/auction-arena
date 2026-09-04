@@ -875,4 +875,4 @@ PORT = int(os.environ.get("PORT") or os.environ.get("AUCTION_PORT", "8137"))
 
 if __name__ == "__main__":
     print(f"Auction Arena server on http://localhost:{PORT}")
-    sio.run(app, host="0.0.0.0", port=PORT, debug=False, use_reloader=False)
+    sio.run(app, host="0.0.0.0", port=PORT, debug=False, use_reloader=False,allow_unsafe_werkzeug=True)
